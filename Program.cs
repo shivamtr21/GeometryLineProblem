@@ -6,7 +6,7 @@ namespace GemometryLineComparision
     {
         public static void Main(string[] args)
         {
-            GeometryLineProblem.CompareTwoLine();
+            GeometryLineProblem.CompareTwoLineEualareNot();
         }
     }
 }
