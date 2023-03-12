@@ -6,7 +6,7 @@ namespace GemometryLineComparision
     {
         public static void Main(string[] args)
         {
-            GeometryLineProblem.CalculateTheLength();
+            GeometryLineProblem.CompareTwoLine();
         }
     }
 }
