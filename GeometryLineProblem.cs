@@ -8,7 +8,7 @@ namespace GeometryLineComparision
 {
     public class GeometryLineProblem
     {
-        public static void CompareTwoLine()
+        public static void CompareTwoLineEualareNot()
         {
             //for length 1
 
@@ -58,6 +58,15 @@ namespace GeometryLineComparision
             else
             {
                 Console.WriteLine("Both the line are not equal");
+
+                if (length1 > length2)
+                {
+                    Console.WriteLine("Length of Line 1 is Greater than Line 2");
+                }
+                else
+                {
+                    Console.WriteLine("Length of Line 2 is Greater than Line 1");
+                }
 
             }
         }
